@@ -39,8 +39,8 @@ jQuery(document).ready(function($) {
 	$('#time_countdown').countDown({
         
          targetDate: {
-             'day': 3,
-             'month': 10,
+             'day': 12,
+             'month': 9,
              'year': 2016,
              'hour': 0,
              'min': 0,
