@@ -76,7 +76,7 @@ a:focus{
 }
 .pattern{
 	/*background:rgba(0,0,0,.5) url(../images/pattern.png);*/
-	padding-top:100px;
+	padding-top:70px;
 }
 .container{
 	overflow:hidden;
@@ -472,12 +472,21 @@ a:focus{
 	text-align:center;
 	font-size:66px;
 	font-family:'Audiowide';
+	position:relative;
+}
+.site-subtitle span{
+  font-size:28px;
+  font-family:'Audiowide';
+}
+.site-subtitle{
+  text-align:center;
+	font-size:22px;
 	margin:0 0 50px 0;
 	padding-bottom:50px;
 	position:relative;
 }
-.site-title:before,
-.site-title:after{
+.site-subtitle:before,
+.site-subtitle:after{
 	content:"";
 	width:100px;
 	height:10px;
@@ -486,10 +495,10 @@ a:focus{
 	border-bottom:1px double #fff;
 	position:absolute;
 }
-.site-title:before{
+.site-subtitle:before{
 	bottom:0;
 }
-.site-title:after{
+.site-subtitle:after{
 	bottom:2px;
 }
 #page-top .section-name span:before,
