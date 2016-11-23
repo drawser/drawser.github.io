@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
              'min': 0,
              'sec': 0
          },
-         omitWeeks: true
+//         omitWeeks: true
 /*
          targetOffset: {
             'day':      0,
