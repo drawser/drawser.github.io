@@ -37,16 +37,15 @@ jQuery(document).ready(function($) {
 	/* Time Countdown 
 	-------------------------------------------------------------------*/
 	$('#time_countdown').countDown({
-        
          targetDate: {
-             'day': 20,
-             'month': 3,
+             'day': 17,
+             'month': 4,
              'year': 2017,
              'hour': 0,
              'min': 0,
              'sec': 0
          },
-//         omitWeeks: true
+         omitWeeks: true
 /*
          targetOffset: {
             'day':      0,
